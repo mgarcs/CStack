@@ -19,6 +19,7 @@ Or install it yourself as:
 ## Usage
 
 ```
+>> require 'cstack'
 >> s = CStack::Stack.new
 >> 1.upto(10){|i| s<< i}
 >> while not s.empty? do p s.pop end
