@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Mario Garcés"]
   spec.email         = ["mgarces@csrg.cl"]
   spec.summary       = %q{CStack}
-  spec.description   = %q{A ruby Stack written in C}
+  spec.description   = %q{A ruby Stack written in C for learning purpose.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
