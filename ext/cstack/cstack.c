@@ -66,7 +66,7 @@ static VALUE stack_init(int argc, VALUE *argv, VALUE self) {
 
 
 /****************************************
- * 					Helper functions
+ *            Helper functions
  ****************************************/
 
 static inline stack_node* create_node(VALUE object) {
@@ -85,7 +85,7 @@ static inline void delete_node(stack_node *node){
 }
 
 /****************************************
- *						Binding Methods
+ *             Binding Methods
  ****************************************/
 
 
@@ -159,7 +159,7 @@ static VALUE stack_is_empty(VALUE self) {
 
 
 /****************************************
- *						Init Method
+ *             Init Method
  ****************************************/
 
 void Init_cstack() {

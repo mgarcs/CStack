@@ -1,6 +1,6 @@
 # Cstack
 
-TODO: Write a gem description
+Basic Stack implementation using ruby c extension.
 
 ## Installation
 
@@ -18,7 +18,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+>> s = CStack::Stack.new
+>> 1.upto(10){|i| s<< i}
+>> while not s.empty? do p s.pop end
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+```
 
 ## Contributing
 
