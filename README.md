@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/mgarcs/CStack/badges/gpa.svg)](https://codeclimate.com/github/mgarcs/CStack)
+
 # Cstack
 
 Basic Stack implementation using ruby c extension.
